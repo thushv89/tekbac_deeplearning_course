@@ -1,4 +1,4 @@
-## Using `conda` Environment for the TEKBAC Workshop
+## Creating the `conda` Environment for the TEKBAC Workshop
 
 1. Download and install [Anaconda](https://www.anaconda.com/download/#windows)
 2. Make sure conda is in the system `PATH` by trying `conda --version` in the command prompt
@@ -7,7 +7,14 @@
 5. Install tensorflow by typing the following in the command prompt
 6. If you **do not have a GPU** use: `conda install -n tekbac.deeplearning --yes --file requirements.txt`
 7. If you **do have a GPU** use: `conda install -n tekbac.deeplearning --yes --file requirements_gpu.txt`
-8. Activate the newly created environment with `activate tekbac.deeplearning`
+
+## Activating the `conda` Environment`
+1. Activate the newly created environment with `activate tekbac.deeplearning`
+2. If successfully activated, your prompt in the command line should show `(tekbac.deeplearning) C:\Users\X\Documents`, instead of showing the directory you are in (e.g. `C:\Users\X\Documents`)
+
+## Deactivating the `conda` Environment
+1. Deactivate the conda environment with `deactivate`
+2. If successfully deactivated your prompt in the command line should appear normally again (e.g. `C:\Users\X\Documents`)
 
 ## Installing packages not listed in the `requirements.txt`
 
