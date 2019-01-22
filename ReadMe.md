@@ -9,4 +9,8 @@
 7. If you **do have a GPU** use: `conda install -n tekbac.deeplearning --yes --file requirements_gpu.txt`
 8. Activate the newly created environment with `activate tekbac.deeplearning`
 
+## Installing packages not listed in the `requirements.txt`
+
+If you need to install a custom package, enter the following command in the command prompt `conda install -n tekbac.deeplearning <package>`
+
 Further reading on how to setup conda environments: [Here](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/)
