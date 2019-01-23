@@ -1,3 +1,8 @@
+## Operating System and Hardware Requirements
+* Operating system: Windows 10
+* RAM: at least 4GB, recommended 8GB
+* Disk space: 5GB-10GB
+
 ## Creating the `conda` Environment for the TEKBAC Workshop
 
 1. Download and install [Anaconda](https://www.anaconda.com/download/#windows)
@@ -17,12 +22,17 @@
 2. Try to import the packages 
   * `numpy` with `import numpy as np`, 
   * `pandas` with `import pandas as pd`, 
-  * `tensorflow` with `import tensorflow as tf, 
+  * `tensorflow` with `import tensorflow as tf`, 
   * `matplotlib` with `import matplotlib`, 
-  * 'scikit-learn` with `import sklearn`, 
+  * `scikit-learn` with `import sklearn`, 
   * `Pillow` with `import PIL`
   * `nltk` with `import nltk`
 3. Finally make sure you do not get any errors when importing the above packages as well as you can see the version of each package by typing `print(<package>.__version__)`
+
+## Checking if GPU is identified by TensorFlow (If the laptop has one)
+1. After activating the `conda` environment, type in `python`
+2. Import TensorFlow with `import tensorflow as tf`
+2. Type in `print(tf.test.is_gpu_available())` and see if it prints out `True`
 
 ## Deactivating the `conda` Environment
 1. Deactivate the conda environment with `deactivate`
