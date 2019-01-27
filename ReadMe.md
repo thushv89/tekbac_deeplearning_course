@@ -1,17 +1,19 @@
-## Operating System and Hardware Requirements
+## Operating System, Software and Hardware Requirements
 * Operating system: Windows 10
 * RAM: at least 4GB, recommended 8GB
 * Disk space: 5GB-10GB
+* Python: 3.5
+* (GPU) Cuda Toolkit: 9.0
 
 ## Creating the `conda` Environment for the TEKBAC Workshop
 
-1. Download and install [Anaconda](https://www.anaconda.com/download/#windows)
+1. Download and install [Anaconda](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe) or [Anaconda 4.2.0 (32-bit)](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86.exe)
 2. Make sure conda is in the system `PATH` by trying `conda --version` in the command prompt
 3. Create a conda virtual environment using `conda create -n tekbac.deeplearning python=3.5`
 4. cd into the `<project directory>`
 5. Install tensorflow by typing the following in the command prompt
-6. If you **do not have a GPU** use: `conda install -n tekbac.deeplearning --yes --file requirements.txt`
-7. If you **do have a GPU** use: `conda install -n tekbac.deeplearning --yes --file requirements_gpu.txt`
+6. If you **do not have a GPU** use: `pip install -r requirements.txt`
+7. If you **do have a GPU** use: `pip install -r requirements_gpu.txt`
 
 ## Activating the `conda` Environment`
 1. Activate the newly created environment with `activate tekbac.deeplearning`
