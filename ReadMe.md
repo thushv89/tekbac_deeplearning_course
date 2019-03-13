@@ -11,9 +11,10 @@
 2. Make sure conda is in the system `PATH` by trying `conda --version` in the command prompt
 3. Create a conda virtual environment using `conda create -n tekbac.deeplearning python=3.5`
 4. cd into the `<project directory>`
-5. Install the required libraries by typing the following in the command prompt
-6. If you **do not have a GPU** use: `pip install -r requirements.txt`
-7. If you **do have a GPU** use: `pip install -r requirements_gpu.txt`
+5. Activate the newly created environment with `activate tekbac.deeplearning`
+6. Install the required libraries by typing the following in the command prompt
+7. If you **do not have a GPU** use: `pip install -r requirements.txt`
+8. If you **do have a GPU** use: `pip install -r requirements_gpu.txt`
 
 ## Activating the `conda` Environment`
 1. Activate the newly created environment with `activate tekbac.deeplearning`
