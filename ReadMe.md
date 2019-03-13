@@ -7,11 +7,11 @@
 
 ## Creating the `conda` Environment for the TEKBAC Workshop
 
-1. Download and install [Anaconda](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe) or [Anaconda 4.2.0 (32-bit)](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86.exe)
+1. Download and install [Anaconda](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe) or [Anaconda (32-bit)](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86.exe)
 2. Make sure conda is in the system `PATH` by trying `conda --version` in the command prompt
 3. Create a conda virtual environment using `conda create -n tekbac.deeplearning python=3.5`
 4. cd into the `<project directory>`
-5. Install tensorflow by typing the following in the command prompt
+5. Install the required libraries by typing the following in the command prompt
 6. If you **do not have a GPU** use: `pip install -r requirements.txt`
 7. If you **do have a GPU** use: `pip install -r requirements_gpu.txt`
 
